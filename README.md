@@ -35,9 +35,12 @@ own first web application to the web by the end of play.
     heroku create
     
 11. Make a note of the URL it gives you. Will be something like 
-http://cool-bananas-922.herokuapp.com. Cut+paste this URL into your favourite
-web browser.
-12. You should see the example app.
+http://cool-bananas-922.herokuapp.com. 
+12. Push the example app from your cloned repository to your heroku repository:
+
+    git push heroku master
+13. Cut+paste your heroku URL into your favourite web browser. You should see 
+the example app.
 13. Sign up for Twilio and follow the instructions: https://www.twilio.com/try-twilio.
 14. Log into your account screen and make a note of the Account SID and the Auth 
 Token. You'll need these to make your app work.
@@ -65,6 +68,10 @@ using the following commands:
 
 5. Test your changes on the Heroku URL you remembered from before. Make sure it 
 worked!
+
+6. At the end of the day, push your changes to your own github profile using
+
+   git push origin master
 
 # TODO
 
