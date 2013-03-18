@@ -99,3 +99,5 @@ at least one option from the form.
 8. In your pairs, come up with another use for this application and completely 
 modify it, changing the title, image and purpose of the submission form. Prizes 
 for the best applications that get finished by the end of the day.
+9. Invite your friends and family on the web to try your application by posting
+your heroku URL on Twitter/Facebook.
