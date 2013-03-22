@@ -6,43 +6,64 @@ own first web application to the web by the end of play.
 
 # Install
 
-1. Create a folder to use for your upcoming project work, I suggest /projects
+* Create a folder to use for your upcoming project work, I suggest /projects
 
+```
     cd ~
     mkdir projects
     cd projects
-2. Fork this repo by clicking the 'fork' button above
-3. Clone your forked repository, the URL is on your new github page. 
+```
 
-    git clone https://github.com/whoever/MyFirstAmazingApp.git
-4. Change into your new project folder
+* Fork this repo by clicking the 'fork' button above
+* Clone your forked repository, the URL is on your new github page. 
 
-    cd MyFirstAmazingApp
-5. Install bundler
+```
+    git clone https://github.com/whoever/MyAmazingFirstApp.git
+```
 
-   sudo gem install bundler --no-ri --no-rdoc
+* Change into your new project folder
+
+```
+    cd MyAmazingFirstApp
+```
+
+* Install bundler
+
+```
+    sudo gem install bundler --no-ri --no-rdoc
+```
    
-6. Install the ruby gems required for the application
+* Install the ruby gems required for the application
   
+```
    bundle
-7. Sign up for Heroku: https://id.heroku.com/signup
-8. Setup Heroku toolbelt: https://toolbelt.heroku.com
-9. Login to Heroku by typing:
+```
 
+* Sign up for Heroku: https://id.heroku.com/signup
+* Setup Heroku toolbelt: https://toolbelt.heroku.com
+* Login to Heroku by typing:
+
+```
     heroku login
-10. Create an app on Heroku using:
+```
 
+* Create an app on Heroku using:
+
+```
     heroku create
-    
-11. Make a note of the URL it gives you. Will be something like 
-http://cool-bananas-922.herokuapp.com. 
-12. Push the example app from your cloned repository to your heroku repository:
+```
 
+* Make a note of the URL it gives you. Will be something like 
+http://cool-bananas-922.herokuapp.com. 
+* Push the example app from your cloned repository to your heroku repository:
+
+```
     git push heroku master
-13. Cut+paste your heroku URL into your favourite web browser. You should see 
+```    
+* Cut+paste your heroku URL into your favourite web browser. You should see 
 the example app.
-13. Sign up for Twilio and follow the instructions: https://www.twilio.com/try-twilio.
-14. Log into your account screen and make a note of the Account SID and the Auth 
+* Sign up for Twilio and follow the instructions: https://www.twilio.com/try-twilio.
+* Log into your account screen and make a note of the Account SID and the Auth 
 Token. You'll need these to make your app work.
 
 # Development cycle
