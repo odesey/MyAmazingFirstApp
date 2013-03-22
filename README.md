@@ -73,7 +73,9 @@ You should work through the TODO list below, using the following methodology:
 1. Run the example application using the following command. You should see the web application running locally in your browser at 
 http://localhost:4567.
 
+```
     ruby my_amazing_web_app.rb
+```
 
 2. Make a change locally in your text editor.
 
@@ -83,9 +85,11 @@ server. You do this by killing the process using CTRL+C in your terminal window.
 4. Once you're happy with your change, save your changes to your local repo 
 using the following commands:
 
+```
     git add .
     git commit -m "Write down briefly what you changed in here"
     git push heroku master
+```
 
 5. Test your changes on the Heroku URL you remembered from before. Make sure it 
 worked!
