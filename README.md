@@ -126,3 +126,4 @@ modify it, changing the title, image and purpose of the submission form. Prizes
 for the best applications that get finished by the end of the day.
 9. Invite your friends and family on the web to try your application by posting
 your heroku URL on Twitter/Facebook.
+10. When you have finished, submit a pull request so that I can review your work. Info on how to do that is here: https://help.github.com/articles/using-pull-requests
